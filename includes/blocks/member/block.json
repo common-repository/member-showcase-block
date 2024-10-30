@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "ahsan03/member-showcase",
+  "version": "0.0.1",
+  "title": "Member Showcase",
+  "category": "design",
+  "description": "Member Showcase Block",
+  "textdomain": "msb",
+  "example": {
+    "attributes": {
+      "memberImageURL": "https://via.placeholder.com/150"
+    }
+  },
+  "attributes": {
+    "globalBackgroundColor": {
+      "type": "string"
+    },
+    "globalPadding": {
+      "type": "object"
+    },
+    "globalMargin": {
+      "type": "object"
+    },
+    "globalBorder": {
+      "type": "object"
+    },
+    "globalBorderRadius": {
+      "type": "integer",
+      "default": 10
+    },
+    "memberImagePosition": {
+      "type": "string",
+      "default": "top"
+    },
+    "memberImageId": {
+      "type": "number"
+    },
+    "memberImageURL": {
+      "type": "string",
+      "default": "https://via.placeholder.com/150"
+    },
+    "memberName": {
+      "type": "string",
+      "default": "Adam Smith"
+    },
+    "designation": {
+      "type": "string",
+      "default": "CEO at automattic"
+    },
+    "hideDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "socialIcons": {
+      "type": "object",
+      "default": {
+        "icons": [
+          {
+            "icon": "dashicons dashicons-facebook-alt",
+            "link": "#"
+          },
+          {
+            "icon": "dashicons dashicons-twitter",
+            "link": "#"
+          },
+          {
+            "icon": "dashicons dashicons-linkedin",
+           "link": "#"
+          }
+        ]
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageWidth": {
+      "type": "integer",
+      "default": 150
+    },
+    "imageBorder": {
+      "type": "object",
+      "default": {
+        "color": "#e0e1fb",
+        "width": "3px"
+      }
+    },
+    "nameColor": {
+      "type": "string",
+      "default": "#0c2461"
+    },
+    "nameFontSize": {
+      "type": "string",
+      "default": "22px"
+    },
+    "nameFontWeight": {
+      "type": "string",
+      "default": "700"
+    },
+    "nameFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "nameLetterSpacing": {
+      "type": "string"
+    },
+    "nameTextTransform": {
+      "type": "string"
+    },
+    "nameLineHeight": {
+      "type": "string",
+      "default": "34px"
+    },
+    "nameMargin": {
+      "type": "object",
+      "default": {
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "bottom": "5px"
+      }
+    },
+    "jobTitleColor": {
+      "type": "string",
+      "default": "#335d7d"
+    },
+    "jobTitleFontSize": {
+      "type": "string",
+      "default": "16px"
+    },
+    "jobTitleFontWeight": {
+      "type": "string",
+      "default": "600"
+    },
+    "jobTitleFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "jobTitleLetterSpacing": {
+      "type": "string"
+    },
+    "jobTitleTextTransform": {
+      "type": "string"
+    },
+    "jobTitleLineHeight": {
+      "type": "string",
+      "default": "26px"
+    },
+    "jobTitleMargin": {
+      "type": "object",
+      "default": {
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "bottom": "10px"
+      }
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#3c6382"
+    },
+    "descriptionFontSize": {
+      "type": "string",
+      "default": "15px"
+    },
+    "descriptionFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "descriptionFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "descriptionLetterSpacing": {
+      "type": "string"
+    },
+    "descriptionTextTransform": {
+      "type": "string"
+    },
+    "descriptionLineHeight": {
+      "type": "string",
+      "default": "28px"
+    },
+    "descriptionMargin": {
+      "type": "object",
+      "default": {
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "bottom": "0"
+      }
+    },
+    "socialIconsColor": {
+      "type": "string",
+      "default": "#3742fa"
+    },
+    "socialIconsBackgroundColor": {
+      "type": "string"
+    },
+    "socialIconsHoverColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "socialIconsHoverbackgroundColor": {
+      "type": "string",
+      "default": "#3742fa"
+    },
+    "socialIconsBorder": {
+    "type": "object",
+    "default": {
+      "color": "#3742fa",
+      "style": "solid",
+      "width": "1px"
+    }
+  }
+},
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
